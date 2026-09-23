@@ -89,7 +89,7 @@
 * **`perimeter(a)`** — вычисляет периметр квадрата.
   * *Параметры*: `a` (сторона).
   * *Возвращает*: периметр `4 * a`.
-  * *Пример вызова*:
+  * *Пример вызова*:М
     ```python
     from square import perimeter
     print(perimeter(4))  # Вывод: 16
@@ -107,13 +107,3 @@
  |d078c8d | smartiqa | Добавлена документация L-03 |
  |8ba9aeb | smartiqa | Добавлены `circle.py` и `square.py` |
 
-
-### Заголовок 1
-[Yandex](https://ya.ru)
-Маркированный спосок 
-1. Пункт 1
-2. Пункт 2
-3. Пункт 3
-* punct 4
-  * unpunct 5
-<span style="color: red"> Этот текст красный </span>
