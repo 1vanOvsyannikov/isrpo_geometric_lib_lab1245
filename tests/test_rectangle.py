@@ -33,8 +33,8 @@ class RectangleTestCase(unittest.TestCase):
         res = area(99.12, 105.987)
         self.assertAlmostEqual(res, 10_505.43144, delta=EPSILON)
 
-    # def test_area_negative(self):
-    #     self.assertRaises(ValueError, area, -1, 8)
+    def test_area_negative(self):
+        self.assertRaises(ValueError, area, -1, 8)
 
     # def test_perimeter_negative(self):
     #     self.assertRaises(ValueError, perimeter, -2, 9)
