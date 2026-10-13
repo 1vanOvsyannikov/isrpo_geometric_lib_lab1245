@@ -1,12 +1,12 @@
 name: CI
-on: [push]
+on: push
 
 jobs:
   test:
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest]
-    runs-on: ${{ strategy.matrix.os }}
+    runs-on: ${{ matrix.os }}
     steps:
       - name: Checkout rep
         uses: actions/checkout@v3
